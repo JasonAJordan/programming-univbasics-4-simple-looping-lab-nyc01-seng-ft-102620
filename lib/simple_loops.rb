@@ -25,4 +25,12 @@ def output_array(array)
   end
 end
   
-def return_string_array
+def return_string_array(array)
+  counter = 0
+  newArray = []
+  while counter < array.length do
+    string = array[counter].to
+    newArray.push(array[counter]) 
+    counter += 1
+  end
+end
